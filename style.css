@@ -366,6 +366,9 @@ footer {
   .home_right img {
       width: 100%;  
   }
+  .grid_item_icon_heading h3{
+    font-size: 20px;
+  }
 }
 
 
