@@ -1,0 +1,371 @@
+/* general css for all */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* container css for all */
+.container {
+  max-width: 1600px;
+  width: 80%;
+  margin: 0 auto;
+}
+/* home section css starts */
+.home_complete {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 20px;
+}
+.home{
+  background: linear-gradient(to right, #8158e5, #5c14b8, #378dfc);
+  padding: 35px 0;
+}
+.logo {
+  margin-left: -16px;
+}
+.home_footer {
+  margin-left: -18px;
+  padding-top: 70px;
+}
+.grid_left {
+  max-width: 100%;
+}
+.home_heading {
+  color: white;
+  padding-top: 50px;
+}
+.home_heading h2 {
+  font-size: 60px;
+  font-weight: 200;
+}
+.home_heading h2 span {
+  font-weight: 1000;
+}
+.home_heading h4 {
+  font-size: 36px;
+  padding-top: 15px;
+  width: 100%;
+  font-weight: 100;
+}
+/* home section css ends */
+/* about section css starts */
+.about {
+  padding: 50px 0;
+}
+.about_head {
+  padding-bottom: 35px;
+}
+.about p {
+  width: 93%;
+
+  font-size: 25px;
+}
+.about h3 {
+  font-weight: 800;
+  padding-top: 30px;
+  font-size: 25px;
+}
+.grid_part {
+  display: grid;
+  grid-template-columns: repeat(3, 0.4fr);
+  gap: 5px;
+  padding-top: 40px;
+  color: white;
+}
+.icon_heading {
+    display: inline-block; 
+    position: relative;
+}
+
+.icon_heading h3 {
+    position: relative;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 20px; 
+}
+
+.icon_heading h3::before {
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 2px;  
+    height: 20px;
+    left: -15px; 
+    top: 70%;
+    transform: translateY(-30%); 
+}
+
+.box ul {
+  padding-left: 35px;
+  right: auto;
+}
+.box ul li {
+  font-size: 20px;
+  padding-bottom: 20px;
+  width: 85%;
+}
+.box {
+  padding: 20px 0px 20px 40px;
+  border-radius: 2px;
+}
+.envision {
+  background-color: #7d4cc0;
+}
+.build {
+  background-color: #2d72d9;
+}
+.market {
+  background-color: #4a90e2;
+}
+.icon_heading i {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+/* about section css ends */
+/* description before toolbar starts */
+.grid_btw_detail h2 {
+  padding-bottom: 20px;
+}
+.grid_btw_detail p {
+  padding-bottom: 20px;
+  font-size: 20px;
+  width: 81%;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+}
+/* description before toolbar ends */
+/* toolbar features section css starts */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 0.5fr);
+  gap: 1px;
+}
+.grid-item:nth-child(even) {
+  background-color: #eff0f5;
+}
+.grid-item:nth-child(odd) {
+  background-color: #f6fbfc;
+}
+.grid-item {
+  background: #f9f9f9;
+  padding: 50px 30px 90px 30px;
+  /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+}
+.grid_item_icon_heading i {
+  color: #6a0dad;
+  font-size: 45px;
+  display: inline-block;
+  vertical-align: middle;
+ 
+}
+.differ {
+  padding-bottom: 150px;
+}
+.modify {
+  padding-top: 25px;
+}
+.grid-item_second {
+  width: 95%;
+}
+.grid_item_icon_heading {
+    display: inline-block; 
+    position: relative;
+    vertical-align: middle;
+}
+
+.grid_item_icon_heading h3 {
+    position: relative;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 20px; 
+    vertical-align: middle;
+    
+}
+
+.grid_item_icon_heading h3::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 2px;  
+    height: 20px;
+    left: -15px; 
+    top: 50%;
+    transform: translateY(-50%); 
+}
+.grid-item p {
+  font-size: 20px;
+  color: black;
+  padding-bottom: 20px;
+  width: 80%;
+}
+button {
+  background: #6a0dad;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* toolbar features section css ends */
+/* contact detail section css starts */
+.contact_detail p {
+  font-size: 20px;
+}
+.contact_detail {
+  padding: 20px 0;
+}
+.contact_detail_first {
+  line-height: 25px;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+}
+.contact_detail_first,
+.contact_detail_second,
+.contact_detail_third {
+  padding-bottom: 20px;
+}
+.contact_detail_first a {
+  text-decoration: none !important;
+}
+.contact_detail p a {
+  text-decoration: none !important;
+}
+.contact_detail span {
+  color: #7d4cc0;
+}
+/* contact detail section css ends */
+/* footer css start */
+footer {
+  background: linear-gradient(to right, #7d4cc0, #2d72d9);
+  height: 20px;
+}
+/* footer css ends */
+/* media query starts */
+@media screen and (max-width: 1400px){
+    .container{
+        max-width: 1320px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .container{
+        max-width: 1140px;
+    }
+    .home_complete{
+        grid-template-columns: 1fr;
+    }
+    .home_footer{
+        margin-top: -30px;
+    }
+    .grid_part{
+        grid-template-columns: 1fr;
+    }
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-item:nth-child(1), 
+.grid-item:nth-child(4),
+ .grid-item:nth-child(5) {
+        background-color: #eff0f5;
+      }
+      .grid-item:nth-child(2),.grid-item:nth-child(3), 
+      .grid-item:nth-child(6) {
+        background-color: #f6fbfc;
+      }
+
+}
+@media screen and (max-width: 992px){
+    .container{
+        max-width: 960px;
+    }
+}
+@media screen and (max-width: 768px){
+    .container{
+        max-width: 720px;
+    }
+    .home_complete{
+      grid-template-columns: 0.5fr;
+      
+  }
+  /* .logo{
+    margin-left: -30px;
+  } */
+  /* .grid_right{
+    margin-left: -50px;
+  }
+    .home_heading h4{
+      width: 70%;
+    } */
+    /* .home_right img{
+      scale: 0.5;
+      align-items: center;
+      margin-left: -40px;
+    } */
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+    .grid-item:nth-child(1), 
+.grid-item:nth-child(3),
+ .grid-item:nth-child(5) {
+        background-color: #eff0f5;
+      }
+      .grid-item:nth-child(2),.grid-item:nth-child(4), 
+      .grid-item:nth-child(6) {
+        background-color: #f6fbfc;
+      }
+}
+@media screen and (max-width: 580px) {
+  .container {
+      width: 100%;  
+      max-width: 100%;
+      padding: 0 10px;  
+  }
+
+  .home_complete {
+      grid-template-columns: 1fr; 
+      gap: 10px;  
+      justify-content: center;
+  }
+
+ 
+
+  .grid_left, .grid_right {
+      width: 100%;  
+  }
+
+  .home_heading h2 {
+      font-size: 30px;
+      text-align: center;
+  }
+
+  .home_heading h4 {
+      font-size: 28px;
+      width: 100%;
+      text-align: center; 
+  }
+
+  .logo img {
+      max-width: 180px; 
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%);
+  }
+
+  .home_footer img {
+      max-width: 120px;
+      width: 50%;
+      position: absolute;
+      margin-top: -40px;
+      left: 50%;
+      transform: translate(-50%);
+  }
+
+  .home_right img {
+      width: 100%;  
+  }
+}
+
+
