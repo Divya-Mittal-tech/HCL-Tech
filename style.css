@@ -369,6 +369,9 @@ footer {
   .grid_item_icon_heading h3{
     font-size: 20px;
   }
+  .grid_item_icon_heading i{
+    font-size: 35px;
+  }
 }
 
 
